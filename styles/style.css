@@ -13,7 +13,7 @@ h1
 h2 
 h3 {
     color: black;
-    font-family: (var(--heading-font-family));
+    font-family: var(--heading-font-family);
     font-weight: bold;
 }
 
@@ -26,13 +26,13 @@ h1 {
 }
 
 .hero {
-    background: (var(--secondary-color));
+    background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
 
 .hero h1 {
-    font-family: (var(--heading-font-family));
+    font-family: var(--heading-font-family);
     font-size: 36px;
     font-weight: bold;
     margin: 0;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .btn-branding {
-    background-color: (var(--branding-color));
+    background-color: var(--branding-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
