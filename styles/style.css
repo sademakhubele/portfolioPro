@@ -45,6 +45,14 @@ p {
     text-align: center;
     padding: 160px 20px;
 }
+.about-section {
+    background-color: #FFFFFF;
+    padding: 160px 20px;
+}
+
+.about-section content {
+    margin: 30px;
+}
 
 .hero h1 {
     font-family: var(--heading-font-family);
@@ -52,6 +60,26 @@ p {
     font-weight: bold;
     margin: 0;
     color: #272142;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--heading-font-family);
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-family: var(--default-heading-font-family);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-section p {
+    font-family: 16px;
+    font-family: var(--default-heading-font-family);
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .hero p {
@@ -97,4 +125,9 @@ p {
     .project-description{
        padding: 0;
        text-align: center;}
+
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
 }
