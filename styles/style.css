@@ -45,12 +45,12 @@ p {
     text-align: center;
     padding: 160px 20px;
 }
-.about-section {
+.content-container {
     background-color: #FFFFFF;
     padding: 160px 20px;
 }
 
-.about-section content {
+.content {
     margin: 30px;
 }
 
@@ -62,21 +62,29 @@ p {
     color: #272142;
 }
 
-.about-section h1 {
+.content-container h1 {
     font-size: 64px;
     font-weight: 700;
     font-family: var(--heading-font-family);
     line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
     font-family: var(--default-heading-font-family);
     font-size: 18px;
     font-weight: 700;
 }
 
-.about-section p {
-    font-family: 16px;
+.content-container h3 {
+    font-family: var(--default-heading-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 20px 0 0;
+}
+
+.content-container p {
+    font-family: 12px;
     font-family: var(--default-heading-font-family);
     font-weight: 400;
     line-height: 30px;
@@ -126,7 +134,7 @@ p {
        padding: 0;
        text-align: center;}
 
-    .about-section {
+    .content-container {
         text-align: center;
         padding: 0;
     }
