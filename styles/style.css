@@ -33,6 +33,11 @@ h3 {
     line-height: 85px;
 }
 
+h4 {
+    font-size: 48px;
+    font-family: var(--default-heading-font-family);
+}
+
 p {
     font-size: 16px;
     font-family: var(--default-heading-font-family);
@@ -148,6 +153,41 @@ nav ul {
 
 .project-description {
     padding: 120px 60px;
+    
+}
+
+footer {
+    margin: 60px;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-family: var(--default-heading-font-family);
+    transition: all 150ms ease-in-out;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: #000;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer .social-links :hover{
+    color: white;
+    background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -175,5 +215,9 @@ nav ul {
     .btn-branding-outline, .btn-branding {
         font-size: 12px;
         line-height: 18px;
+    }
+    footer .contact-box{
+        padding: 30px;
+        font-size: 16px;
     }
 }
